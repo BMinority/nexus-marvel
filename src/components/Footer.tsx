@@ -13,15 +13,15 @@ export default function Footer() {
           <a href="https://developer.marvel.com" target="_blank" rel="noreferrer">
             Marvel API
           </a>
-          <a href="https://github.com/seuusuario/marvel-nexus" target="_blank" rel="noreferrer">
+          <a href="https://github.com/BMinority/nexus-marvel" target="_blank" rel="noreferrer">
             Repositório
           </a>
-          <a href="mailto:contato@marvelnexus.com">
+          <a href="https://brunocoelhodd.vercel.app" target="_blank" rel="noreferrer">
             Contato
           </a>
         </nav>
 
-        <p className="bc-footer-copy">© {new Date().getFullYear()} Marvel NEXUS. Todos os direitos reservados.</p>
+        <p className="bc-footer-copy">© {new Date().getFullYear()} Bruno Coelho. Todos os direitos reservados.</p>
       </div>
     </footer>
   );
