@@ -1,0 +1,54 @@
+.bc-footer {
+  background-color: #001f3f;
+  color: #ccc;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+
+  .bc-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .bc-footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      height: 30px;
+    }
+
+    span {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #e62429;
+    }
+  }
+
+  .bc-footer-nav {
+    display: flex;
+    gap: 1.2rem;
+
+    a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #e62429;
+      }
+    }
+  }
+
+  .bc-footer-copy {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    color: #666;
+  }
+}

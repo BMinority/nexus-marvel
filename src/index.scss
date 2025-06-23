@@ -1,0 +1,21 @@
+@import url('./styles/Loading.scss');
+@import url('./styles/LoadingDark.scss');
+@import url('./styles/Header.scss');
+@import url('./styles/HeroesCard.scss');
+@import url('./styles/Heroes.scss');
+@import url('./styles/MarvelWikis.scss');
+@import url('./styles/Releases.scss');
+@import url('./styles/ReaderComicBook.scss');
+@import url('./styles/Footer.scss');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
