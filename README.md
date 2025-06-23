@@ -1,54 +1,77 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="src/assets/marvel-nexus.svg" alt="Marvel NEXUS Logo" width="120"/>
+  <h1>Marvel NEXUS</h1>
+  <p>🌌 Explore o universo Marvel com um portal interativo de HQs, personagens e lançamentos 🌟</p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🔍 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Marvel NEXUS** é uma aplicação web desenvolvida com foco em consumir a [API oficial da Marvel](https://developer.marvel.com/), exibindo dados de quadrinhos, heróis e lançamentos de maneira elegante, interativa e responsiva.
 
-## Expanding the ESLint configuration
+> Este projeto foi idealizado como parte do meu portfólio pessoal com o objetivo de demonstrar domínio em tecnologias modernas de frontend, consumo de APIs REST e design responsivo.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Tecnologias Utilizadas
+
+<div align="left">
+  <img width="48" height="48" src="https://img.icons8.com/fluency/48/typescript--v2.png" alt="typescript--v2"/>
+  <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+  <img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" alt="react"/>
+  <img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-sass-a-style-sheet-professional-grade-css-extension-language-logo-color-tal-revivo.png" alt="sass"/>
+  <img width="48" height="48" src="https://img.icons8.com/fluency/48/vite.png" alt="vite"/>
+  <img width="48" height="48" src="https://img.icons8.com/3d-fluency/94/api.png" alt="api"/>
+</div>
+
+- **ReactJS + TypeScript**
+- **Sass (SCSS)**
+- **Vite** para bundling rápido
+- **Consumo da API da Marvel**
+- **Font Awesome e React Icons** para ícones
+- **Responsividade Mobile First**
+- **Componentização, organização modular e boas práticas de código**
+
+---
+
+## 📸 Funcionalidades
+
+- 🔍 Buscar quadrinhos por mês e ano (com validação e formatação automática)
+- 🦸 Listagem de personagens e heróis mais populares
+- 📆 Calendário de lançamentos por data
+- 📖 Leitor de quadrinhos com controle deslizante e animações suaves
+- 🎨 Interface moderna com design adaptável para todas as resoluções
+
+---
+
+## 📱 Layout Responsivo
+
+Desenvolvido com _media queries_ específicas para dispositivos com larguras de `840px`, `768px` e `430px`, garantindo uma excelente experiência tanto em **desktop** quanto em **dispositivos móveis**.
+
+---
+
+## 🔗 Acesse o Projeto
+
+- 🌐 **Deploy:** [nexusmarvel.netlify.app](https://nexusmarvel.netlify.app/)
+- 🗂️ **Repositório:** [github.com/BMinority/nexus-marvel](https://github.com/BMinority/nexus-marvel)
+
+- 📥 **Clone o projeto localmente:**
+
+```bash
+
+git clone https://github.com/BMinority/nexus-marvel.git
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 👨‍💻 Desenvolvido por
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Bruno Coelho
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+🎯 Desenvolvedor Full Stack com foco em tecnologias modernas do ecossistema JavaScript.
+
+📁 Portfólio: [Bruno Coelho](https://brunocoelhodd.vercel.app/)
+
+## 📄 Licença
+
+Este projeto é de código aberto e está sob a licença MIT.
